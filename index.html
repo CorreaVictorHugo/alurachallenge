@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tiny5&display=swap" rel="stylesheet">
+
+    <title>Challenge Alura</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="logo Alura">       
+    </header>
+
+    <main>
+        <!-- sessão que recebe o texto digitado-->
+        <section class="section1">
+            <textarea class="textoprincipal" placeholder="Escreva sua mensagem aqui!!"></textarea>
+
+            <div class="conteiner-btn">
+                <input class="botao-encriptar" type="button" value="Encriptar"> <!--botao para encriptar o text--> 
+                <input class="botao-descriptar" type="button" value="Descriptar"> <!--botao para descriptar o texto--> 
+            </div>
+
+        </section>
+            <!-- sessão que recebe o texto digitado-->
+
+            <!-- sessão que recebe o resultado da encriptação-->
+        <section class="section2">
+
+            <div class="conteiner-img"><img src="logoboneco.svg" alt="logo boneco">
+            </div>
+
+            <div class="conteiner-titulo">
+                <h3>Nenhuma mensagem encontrada.</h3>
+            </div>
+
+            <div class="conteiner-subtitulo">
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <input class="botao-copiar" type="button" value="Copiar"> <!--botao copiar-->               
+        </section>
+            <!-- sessão que recebe o resultado da encriptação-->
+        
+    </main>
+
+    <footer>
+        Dessenvolvido por Victor Hugo Correa
+        <a class="icone-git" href=""><ion-icon name="logo-github"></ion-icon></a>
+        <a class="icone-linkedin" href="https://www.linkedin.com/in/victor-hn-correa/"><ion-icon name="logo-linkedin"></ion-icon></a>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+
+</body>
+
+</html>
